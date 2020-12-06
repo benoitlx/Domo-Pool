@@ -14,25 +14,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5150 3400 500  150 
+S 2400 1100 500  150 
 U 5FCDB50C
 F0 "ethernet" 50
 F1 "ethernet.sch" 50
 $EndSheet
 $Sheet
-S 4050 3350 500  200 
+S 1150 1050 500  200 
 U 5FCDBA1F
 F0 "power_supply" 50
 F1 "power_supply.sch" 50
 $EndSheet
 $Sheet
-S 6050 3400 500  150 
+S 3300 1100 500  150 
 U 5FCDDB53
 F0 "mega" 50
 F1 "mega.sch" 50
 $EndSheet
 $Sheet
-S 6850 3400 500  150 
+S 4100 1100 500  150 
 U 5FCE2868
 F0 "input_output" 50
 F1 "input_output.sch" 50
