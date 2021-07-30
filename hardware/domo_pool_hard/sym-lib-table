@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name domo_pool_hard-rescue)(type Legacy)(uri ${KIPRJMOD}/domo_pool_hard-rescue.lib)(options "")(descr ""))
+)

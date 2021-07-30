@@ -1,0 +1,60 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Domo interface"
+Date "2020-12-06"
+Rev "v1.0"
+Comp "Domaine de Salais"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L arduino:Arduino_Mega2560_Shield XA?
+U 1 1 6103D51B
+P 5700 4800
+F 0 "XA?" H 5700 2419 60  0000 C CNN
+F 1 "Arduino_Mega2560_Shield" H 5700 2313 60  0000 C CNN
+F 2 "" H 6400 7550 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-mega-2560-rev3" H 6400 7550 60  0001 C CNN
+	1    5700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino:Arduino_Uno_Shield XA?
+U 1 1 61043145
+P 5750 9650
+F 0 "XA?" H 5750 11037 60  0000 C CNN
+F 1 "Arduino_Uno_Shield" H 5750 10931 60  0000 C CNN
+F 2 "" H 7550 13400 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-uno-rev3" H 7550 13400 60  0001 C CNN
+	1    5750 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 61062C9F
+P 9150 3300
+F 0 "J?" H 9258 3981 50  0000 C CNN
+F 1 "Conn_01x12_Male" H 9258 3890 50  0000 C CNN
+F 2 "" H 9150 3300 50  0001 C CNN
+F 3 "~" H 9150 3300 50  0001 C CNN
+	1    9150 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even J?
+U 1 1 6107FDB2
+P 9000 5500
+F 0 "J?" H 9050 6517 50  0000 C CNN
+F 1 "Conn_02x18_Odd_Even" H 9050 6426 50  0000 C CNN
+F 2 "" H 9000 5500 50  0001 C CNN
+F 3 "~" H 9000 5500 50  0001 C CNN
+	1    9000 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

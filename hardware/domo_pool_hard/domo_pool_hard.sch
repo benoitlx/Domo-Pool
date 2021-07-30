@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
-Sheet 1 4
+Sheet 1 1
 Title "Domo interface"
 Date "2020-12-06"
 Rev "v1.0"
@@ -13,28 +13,139 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 5150 3400 500  150 
-U 5FCDB50C
-F0 "ethernet" 50
-F1 "ethernet.sch" 50
-$EndSheet
-$Sheet
-S 4050 3350 500  200 
-U 5FCDBA1F
-F0 "power_supply" 50
-F1 "power_supply.sch" 50
-$EndSheet
-$Sheet
-S 6050 3400 500  150 
-U 5FCDDB53
-F0 "mega" 50
-F1 "mega.sch" 50
-$EndSheet
-$Sheet
-S 6850 3400 500  150 
-U 5FCE2868
-F0 "input_output" 50
-F1 "input_output.sch" 50
-$EndSheet
+$Comp
+L arduino:Arduino_Mega2560_Shield XA?
+U 1 1 6103D51B
+P 5700 4800
+F 0 "XA?" H 5700 2419 60  0000 C CNN
+F 1 "Arduino_Mega2560_Shield" H 5700 2313 60  0000 C CNN
+F 2 "" H 6400 7550 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-mega-2560-rev3" H 6400 7550 60  0001 C CNN
+	1    5700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino:Arduino_Uno_Shield XA?
+U 1 1 61043145
+P 5750 9650
+F 0 "XA?" H 5750 11037 60  0000 C CNN
+F 1 "Arduino_Uno_Shield" H 5750 10931 60  0000 C CNN
+F 2 "" H 7550 13400 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-uno-rev3" H 7550 13400 60  0001 C CNN
+	1    5750 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even J?
+U 1 1 6107FDB2
+P 10450 5000
+F 0 "J?" H 10500 6017 50  0000 C CNN
+F 1 "Conn_02x18_Odd_Even" H 10500 5926 50  0000 C CNN
+F 2 "" H 10450 5000 50  0001 C CNN
+F 3 "~" H 10450 5000 50  0001 C CNN
+	1    10450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x26 J?
+U 1 1 61090DBA
+P 8750 4850
+F 0 "J?" H 8830 4842 50  0000 L CNN
+F 1 "Conn_01x26" H 8830 4751 50  0000 L CNN
+F 2 "" H 8750 4850 50  0001 C CNN
+F 3 "~" H 8750 4850 50  0001 C CNN
+	1    8750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x24 J?
+U 1 1 610B5E9E
+P 2800 4750
+F 0 "J?" H 2718 3325 50  0000 C CNN
+F 1 "Conn_01x24" H 2718 3416 50  0000 C CNN
+F 2 "" H 2800 4750 50  0001 C CNN
+F 3 "~" H 2800 4750 50  0001 C CNN
+	1    2800 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 610CD1B2
+P 14150 950
+F 0 "#FLG?" H 14150 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 14150 1123 50  0000 C CNN
+F 2 "" H 14150 950 50  0001 C CNN
+F 3 "~" H 14150 950 50  0001 C CNN
+	1    14150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 610CE480
+P 14800 950
+F 0 "#FLG?" H 14800 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 14800 1123 50  0000 C CNN
+F 2 "" H 14800 950 50  0001 C CNN
+F 3 "~" H 14800 950 50  0001 C CNN
+	1    14800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 610CE6E2
+P 15500 950
+F 0 "#FLG?" H 15500 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 15500 1123 50  0000 C CNN
+F 2 "" H 15500 950 50  0001 C CNN
+F 3 "~" H 15500 950 50  0001 C CNN
+	1    15500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 610CE9BC
+P 14400 950
+F 0 "#PWR?" H 14400 800 50  0001 C CNN
+F 1 "VCC" H 14415 1123 50  0000 C CNN
+F 2 "" H 14400 950 50  0001 C CNN
+F 3 "" H 14400 950 50  0001 C CNN
+	1    14400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 610CEE51
+P 15050 950
+F 0 "#PWR?" H 15050 800 50  0001 C CNN
+F 1 "+12V" H 15065 1123 50  0000 C CNN
+F 2 "" H 15050 950 50  0001 C CNN
+F 3 "" H 15050 950 50  0001 C CNN
+	1    15050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610CF26B
+P 15500 1150
+F 0 "#PWR?" H 15500 900 50  0001 C CNN
+F 1 "GND" H 15505 977 50  0000 C CNN
+F 2 "" H 15500 1150 50  0001 C CNN
+F 3 "" H 15500 1150 50  0001 C CNN
+	1    15500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 950  15500 1150
+Wire Wire Line
+	15050 950  15050 1100
+Wire Wire Line
+	15050 1100 14800 1100
+Wire Wire Line
+	14800 1100 14800 950 
+Wire Wire Line
+	14400 950  14400 1100
+Wire Wire Line
+	14400 1100 14150 1100
+Wire Wire Line
+	14150 1100 14150 950 
 $EndSCHEMATC
