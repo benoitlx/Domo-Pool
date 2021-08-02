@@ -1,0 +1,18 @@
+.MP2307DN-LF :1 ;IC REG BUCK ADJUSTABLE 3A 8SOIC
+MP2307DNLF
+*STM IC
+*NGS
+*PLB 1="BS" 2="IN" 3="SW" 4="GND" 5="FB" 6="COMP" 7="EN" 8="SS" 9="EP"
+*MXP 9
+*DFN MP2307DN-LF
+~!Manufacturer_Name (Monolithic Power Systems (MPS))
+~!Manufacturer_Part_Number (MP2307DN-LF)
+~!Mouser Part Number (946-MP2307DNLF)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=946-MP2307DNLF)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/MP2307DN-LF.pdf)
+~!Height (1.7mm)
+~!3D_Model (MP2307DN-LF)
+MP2307DN-LF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

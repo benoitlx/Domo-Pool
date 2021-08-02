@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MP2307DN_LF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Monolithic Power Systems (MPS)", "MP2307DN-LF" (!) = "", "MP2307DNLF", "Other", "946-MP2307DNLF", "https://www.mouser.com/Search/Refine.aspx?Keyword=946-MP2307DNLF", "", "", "IC REG BUCK ADJUSTABLE 3A 8SOIC", "https://componentsearchengine.com/Datasheets/1/MP2307DN-LF.pdf", "1.7 mm"
+END_PART
+
+END.

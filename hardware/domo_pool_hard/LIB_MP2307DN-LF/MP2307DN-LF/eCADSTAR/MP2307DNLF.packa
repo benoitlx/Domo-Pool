@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MP2307DN-LF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-21-13:42:57)
+    (mountForm default
+        (footprintRef "MP2307DNLF")
+        (spec "System")
+    )
+)

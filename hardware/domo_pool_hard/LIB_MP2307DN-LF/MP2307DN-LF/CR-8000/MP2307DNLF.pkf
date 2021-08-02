@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MP2307DNLF"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MP2307DNLF")
+        (spec "default")
+    )
+)

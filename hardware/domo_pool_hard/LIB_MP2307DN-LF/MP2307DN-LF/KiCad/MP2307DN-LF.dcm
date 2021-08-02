@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MP2307DN-LF
+D IC REG BUCK ADJUSTABLE 3A 8SOIC
+K
+F https://componentsearchengine.com/Datasheets/1/MP2307DN-LF.pdf
+$ENDCMP
+#
+#End Doc Library
