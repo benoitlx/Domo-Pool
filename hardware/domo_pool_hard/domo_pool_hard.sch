@@ -309,9 +309,9 @@ Text GLabel 3250 4050 0    50   Input ~ 0
 20
 Text GLabel 3250 4150 0    50   Input ~ 0
 21
-Text GLabel 3250 4250 0    50   Input ~ 0
+Text GLabel 2600 4250 0    50   Input ~ 0
 sda
-Text GLabel 3250 4350 0    50   Input ~ 0
+Text GLabel 2600 4350 0    50   Input ~ 0
 scl
 Text GLabel 3250 4550 0    50   Input ~ 0
 A0
@@ -1855,4 +1855,62 @@ Wire Wire Line
 Connection ~ 6450 1300
 Wire Wire Line
 	6450 1300 6450 1200
+$Comp
+L Device:R R?
+U 1 1 6191D99F
+P 2700 4000
+F 0 "R?" H 2770 4046 50  0000 L CNN
+F 1 "R" H 2770 3955 50  0000 L CNN
+F 2 "" V 2630 4000 50  0001 C CNN
+F 3 "~" H 2700 4000 50  0001 C CNN
+	1    2700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6191E324
+P 2900 4000
+F 0 "R?" H 2970 4046 50  0000 L CNN
+F 1 "R" H 2970 3955 50  0000 L CNN
+F 2 "" V 2830 4000 50  0001 C CNN
+F 3 "~" H 2900 4000 50  0001 C CNN
+	1    2900 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4250 2700 4250
+Wire Wire Line
+	3250 4350 2900 4350
+Wire Wire Line
+	2700 4150 2700 4250
+Connection ~ 2700 4250
+Wire Wire Line
+	2700 4250 3250 4250
+Wire Wire Line
+	2900 4150 2900 4350
+Connection ~ 2900 4350
+Wire Wire Line
+	2900 4350 2600 4350
+$Comp
+L power:VCC #PWR?
+U 1 1 61988482
+P 2800 3700
+F 0 "#PWR?" H 2800 3550 50  0001 C CNN
+F 1 "VCC" H 2815 3873 50  0000 C CNN
+F 2 "" H 2800 3700 50  0001 C CNN
+F 3 "" H 2800 3700 50  0001 C CNN
+	1    2800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3850 2900 3750
+Wire Wire Line
+	2900 3750 2800 3750
+Wire Wire Line
+	2800 3750 2800 3700
+Wire Wire Line
+	2700 3850 2700 3750
+Wire Wire Line
+	2700 3750 2800 3750
+Connection ~ 2800 3750
 $EndSCHEMATC
